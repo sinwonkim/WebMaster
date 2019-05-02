@@ -3,9 +3,11 @@ public class CarExample {
 	public static void main(String[] args) {
 	
 		// Car 객체 생성
-		Car myCar = new Car();
+		Car myCar = new Car("검정",300);
 		
-		// 필드값 읽기 
+		// Car myCar2 = new Car(); 기본 생성자 호출할 수 x
+		
+	/*	// 필드값 읽기 
 		System.out.println("제작 회사 :" + myCar.company);
 		System.out.println("모델 명 : "+ myCar.model);
 		System.out.println("색깔: "+ myCar.color);
@@ -14,7 +16,7 @@ public class CarExample {
 		
 		// 필드값 변경
 		myCar.speed = 60;
-		System.out.println("수정된 속도 : " + myCar.speed );
+		System.out.println("수정된 속도 : " + myCar.speed );*/
 		
 	}
 }
